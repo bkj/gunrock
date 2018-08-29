@@ -27,7 +27,7 @@
 namespace gunrock {
 namespace graphio {
 
-cudaError_t UseParameters(
+static cudaError_t UseParameters(
     util::Parameters &parameters,
     std::string graph_prefix = "")
 {

@@ -28,7 +28,7 @@ namespace small_world {
 typedef std::mt19937 Engine;
 typedef std::uniform_real_distribution<double> Distribution;
 
-cudaError_t UseParameters(
+static cudaError_t UseParameters(
     util::Parameters &parameters,
     std::string graph_prefix = "")
 {

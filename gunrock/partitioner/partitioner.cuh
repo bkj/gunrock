@@ -27,7 +27,7 @@
 namespace gunrock {
 namespace partitioner {
 
-cudaError_t UseParameters(
+static cudaError_t UseParameters(
     util::Parameters &parameters)
 {
     cudaError_t retval = cudaSuccess;

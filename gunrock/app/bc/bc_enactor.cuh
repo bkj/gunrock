@@ -30,7 +30,7 @@ namespace bc {
  * @param parameters The util::Parameter<...> structure holding all parameter info
  * \return cudaError_t error message(s), if any
  */
-cudaError_t UseParameters_enactor(util::Parameters &parameters)
+static cudaError_t UseParameters_enactor(util::Parameters &parameters)
 {
     cudaError_t retval = cudaSuccess;
     GUARD_CU(app::UseParameters_enactor(parameters));

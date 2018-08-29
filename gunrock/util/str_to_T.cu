@@ -12,8 +12,6 @@
  * @brief string to T implementations
  */
 
-//#pragma once
-
 #include <gunrock/util/str_to_T.cuh>
 
 namespace gunrock {

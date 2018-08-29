@@ -30,7 +30,7 @@ namespace gunrock {
 namespace app {
 namespace bc {
 
-cudaError_t UseParameters(util::Parameters &parameters)
+static cudaError_t UseParameters(util::Parameters &parameters)
 {
     cudaError_t retval = cudaSuccess;
     GUARD_CU(UseParameters_app    (parameters));

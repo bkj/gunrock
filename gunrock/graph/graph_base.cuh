@@ -88,7 +88,7 @@ enum EdgeOrder
     UNORDERED,
 };
 
-std::string EdgeOrder_to_string(EdgeOrder order)
+static std::string EdgeOrder_to_string(EdgeOrder order)
 {
     switch (order)
     {

@@ -128,7 +128,7 @@ void ChoosePartition (
  *
  * @param[in] a
  * @param[in] b
- * @param[in] c
+ * @param[in] cs
  * @param[in] d
  * @param[in] rand_data
  */
@@ -179,7 +179,7 @@ void VaryParams(
     d = d / S;
 }
 
-cudaError_t UseParameters(
+static cudaError_t UseParameters(
     util::Parameters &parameters,
     std::string graph_prefix = "")
 {

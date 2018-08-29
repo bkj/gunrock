@@ -41,7 +41,7 @@ enum : ProblemFlag
  * @param parameters The util::Parameter<...> structure holding all parameter info
  * \return cudaError_t error message(s), if any
  */
-cudaError_t UseParameters_problem(
+static cudaError_t UseParameters_problem(
     util::Parameters &parameters)
 {
     cudaError_t retval = cudaSuccess;

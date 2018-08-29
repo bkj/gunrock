@@ -28,7 +28,7 @@
 namespace gunrock {
 namespace util {
 
-cudaError_t UseParameters_info(util::Parameters &parameters)
+static cudaError_t UseParameters_info(util::Parameters &parameters)
 {
     cudaError_t retval = cudaSuccess;
 

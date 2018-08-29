@@ -45,7 +45,7 @@ enum : SwitchFlag
     UNDIRECTED     = 0x20000,
 };
 
-cudaError_t UseParameters_test(
+static cudaError_t UseParameters_test(
     util::Parameters &parameters)
 {
     cudaError_t retval = cudaSuccess;

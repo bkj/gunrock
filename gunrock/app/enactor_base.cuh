@@ -46,7 +46,7 @@ enum : Enactor_Flag
  * @param parameters The util::Parameter<...> structure holding all parameter info
  * \return cudaError_t error message(s), if any
  */
-cudaError_t UseParameters_enactor(
+static cudaError_t UseParameters_enactor(
     util::Parameters &parameters)
 {
     cudaError_t retval = cudaSuccess;
